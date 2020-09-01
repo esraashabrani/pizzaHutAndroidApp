@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".drinks">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".drinks">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/pepsi"
+                style="@style/imageViewStyle"
+                android:src="@drawable/pepsi"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/pepsi"
+                    android:textSize="25sp"
+                    />
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="0.90 JD"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_pepsi"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/pepsi_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_pepsi"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/sevenup"
+                style="@style/imageViewStyle"
+                android:src="@drawable/sevenup"
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/seven_up"
+                    android:textSize="25sp" />
+
+                <TextView
+
+                    android:text="0.90 JD"
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_seven"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/seven_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_seven"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/mirinda"
+                style="@style/imageViewStyle"
+                android:src="@drawable/drinks"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/mirinda"
+                    android:textSize="25sp" />
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="0.90 JD"
+ />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_mirinda"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/mirinda_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_mirinda"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

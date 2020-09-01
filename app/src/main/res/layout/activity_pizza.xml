@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".pizza">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".pizza">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/pepperoni"
+                style="@style/imageViewStyle"
+                android:src="@drawable/peproni"
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/pepperoni"
+
+
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:text="5.75 JD"
+                   />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_pepperoni"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/pepperoni_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_pepperoni"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/trio_vegetarian"
+                style="@style/imageViewStyle"
+                android:src="@drawable/vegi"
+
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/VEGETARIAN"
+
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:text="5.75 JD" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_vegi"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/vegi_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_vegi"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/chicken_grilled"
+                style="@style/imageViewStyle"
+                android:src="@drawable/grilledchicken"
+
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/GRILLED_CHICKEN"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:text="6.00 JD"
+/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_grilled"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/grilled_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_grilled"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/margarita"
+                style="@style/imageViewStyle"
+                android:src="@drawable/margarita"
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/MARGHERITA"
+
+
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:text="4.75 JD"
+ />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_margarita"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/margarita_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_margarita"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/fajita"
+                style="@style/imageViewStyle"
+                android:src="@drawable/chickenfajita"
+
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/CHICKEN_FAJITA"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="6.00 JD"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_fajita"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/fajita_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_fajita"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

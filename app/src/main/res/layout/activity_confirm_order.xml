@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".confirmOrder"
+    android:layout_marginTop="60px"
+    android:orientation="vertical">
+
+
+    <TableLayout
+        android:id="@+id/table_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/ResultText"
+            android:text="@string/order_details" />
+
+
+
+        <TableRow>
+
+            <TextView
+                style="@style/ResultText"
+                android:text="@string/qty"/>
+
+            <TextView
+                style="@style/ResultText"
+                android:text="@string/item_name"/>
+            <TextView
+                style="@style/ResultText"
+                android:text="@string/price"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/qty"
+                style="@style/ResultText"
+                android:textColor="@android:color/black"
+                android:text=" "
+                tools:text="0.9"/>
+
+
+            <TextView
+                android:id="@+id/itemName"
+                style="@style/ResultText"
+                android:textColor="@android:color/black"
+                android:text=" "
+                tools:text="10ms"/>
+            <TextView
+                android:id="@+id/price"
+                style="@style/ResultText"
+                android:textColor="@android:color/black"
+                android:text=" "
+                tools:text="10ms"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textSize="30sp"
+        android:layout_marginLeft="50px"/>
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="30sp"
+        android:layout_marginLeft="50px"/>
+
+<Button
+    android:id="@+id/showOrder"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:text="@string/show_order"
+    android:layout_marginLeft="700px"
+    android:background="@drawable/border"
+    android:onClick="showOrder"/>
+    <Button
+        android:id="@+id/send"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:layout_marginLeft="700px"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:onClick="sendEmail"/>
+</LinearLayout>

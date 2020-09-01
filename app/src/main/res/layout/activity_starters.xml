@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".starters">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".starters">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/garlic_bread"
+                style="@style/imageViewStyle"
+                android:src="@drawable/garlicbraed"
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/garlic_bread"
+                    android:textSize="25sp"
+                     />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:text="1.50 JD" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_garlic"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/garlic_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_garlic"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/trio_platter"
+                style="@style/imageViewStyle"
+                android:src="@drawable/trio"
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/TRIO_PLATTER"
+                    android:textSize="25sp"
+                     />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:text="4.00 JD"
+ />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_trio"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/trio_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_trio"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/chicken_rolls"
+                style="@style/imageViewStyle"
+                android:src="@drawable/rolls"
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/CHICKEN_BBQ_ROLLS"
+                     android:textSize="20sp"
+                     />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:text="2.25 JD"
+ />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_rolls"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/rolls_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_rolls"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/mozzarilla"
+                style="@style/imageViewStyle"
+                android:src="@drawable/mozarillasticks"
+
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/MOZZARELLA_STICKS"
+                    android:textSize="20sp"
+                     />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:text="3.00 JD" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_mozzarilla"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/mozzarilla_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_mozzarilla"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+</ScrollView>

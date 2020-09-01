@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Pizza Hut</string>
+    <string name="order_now">ORDER NOW</string>
+    <string name="starters">Starters</string>
+    <string name="salad">Salad</string>
+    <string name="Pizza">Pizza</string>
+    <string name="pasta">Pasta</string>
+    <string name="deserts">Deserts</string>
+    <string name="garlic_bread">Garlic Bread</string>
+    <string name="drinks">Drinks</string>
+    <string name="TRIO_PLATTER">Trio Platter</string>
+    <string name="WEDGES">Wedges</string>
+    <string name="CHICKEN_BBQ_ROLLS">Chicken BBQ Rolls</string>
+    <string name="WING_STREET_BONE_OUT">Wing Street Bone Out</string>
+
+    <string name="salad_bar">Salad Bar</string>
+    <string name="MOZZARELLA_STICKS">Mozzarella Sticks</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="VEGETARIAN">Vegetarian</string>
+    <string name="MARGHERITA">Margherita</string>
+    <string name="GRILLED_CHICKEN">Grilled Chicken</string>
+    <string name="SUPER_SUPREME">Super Superme</string>
+    <string name="CHICKEN_FAJITA">Chicken Fajita</string>
+    <string name="CHICKEN_pasta">CHICKEN BAKED PASTA</string>
+    <string name="lasagna">FOOT LONG LASAGNA</string>
+    <string name="CHOCOLATE_CAKE">Chocolate Cake</string>
+    <string name="CHEESE_CAKE">Cheese Cake</string>
+    <string name="COOKIE_DOUBLE_CHOCOLATE">Cookie Double Chocolate</string>
+    <string name="pepsi">Pepsi</string>
+    <string name="seven_up">7UP</string>
+    <string name="mirinda">Mirinda</string>
+    <string name="confirm">Confirm</string>
+    <string name="order_details">Order Details</string>
+    <string name="qty">Qty</string>
+    <string name="item_name">Item Name</string>
+    <string name="price">Price</string>
+    <string name="show_order">Show Order</string>
+    <string name="total">Total</string>
+    <string name="send">Send Email</string>
+
+
+</resources>

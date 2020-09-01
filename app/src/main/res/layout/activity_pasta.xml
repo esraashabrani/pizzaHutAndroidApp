@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".pasta">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".pasta">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/lasagna"
+                style="@style/imageViewStyle"
+                android:src="@drawable/lasagna"
+
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/lasagna"
+                    />
+                <TextView
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:text="3.25 JD"
+                  />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_lasagna"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/lasagna_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_lasagna"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/chicken_pasta"
+                android:src="@drawable/chickenpasta"
+                style="@style/imageViewStyle"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="229dp"
+                android:layout_height="139dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textViewStyle"
+                    android:text="@string/CHICKEN_pasta"
+
+                    />
+                <TextView
+
+
+                    android:text="3.00 JD"
+                    style="@style/textViewStyle"
+                    android:padding="5dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="25px">
+
+                    <Button
+                        android:id="@+id/increment_pasta"
+                        style="@style/buttonQuantityStyle"
+                        android:text="+"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/pasta_quantity_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/decrement_pasta"
+                        style="@style/buttonQuantityStyle"
+                        android:text="-"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

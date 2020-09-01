@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بيتزا هت</string>
+    <string name="CHEESE_CAKE">تشيز كيك</string>
+    <string name="CHICKEN_BBQ_ROLLS">رولز الدجاج مع الباربيكيو</string>
+    <string name="CHICKEN_FAJITA">تشكن فاهيتا</string>
+    <string name="CHICKEN_pasta">باستا الدجاج بالفرن</string>
+    <string name="CHOCOLATE_CAKE">كيك الشوكولاتة</string>
+    <string name="COOKIE_DOUBLE_CHOCOLATE">" كوكيز الشوكولاته المزدوجة"</string>
+    <string name="GRILLED_CHICKEN">جريلد تشيكي تشكن</string>
+    <string name="MARGHERITA">مارغاريتا</string>
+    <string name="MOZZARELLA_STICKS">أصابع الموزاريلا</string>
+    <string name="Pizza">بيتزا</string>
+    <string name="SUPER_SUPREME">سوبرسوبريم</string>
+    <string name="TRIO_PLATTER">طبق التريو</string>
+    <string name="VEGETARIAN">فيري فيجي</string>
+    <string name="WEDGES">بطاطا ودجيز</string>
+    <string name="WING_STREET_BONE_OUT">اجنحة الدجاج بدون عظم</string>
+    <string name="confirm">تأكيد</string>
+    <string name="deserts">حلويات</string>
+    <string name="drinks">المشروبات</string>
+    <string name="garlic_bread">خبز بالثوم</string>
+    <string name="item_name">اسم الطبق</string>
+    <string name="lasagna">فوت لونج لازانيا</string>
+    <string name="mirinda">ميرندا</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="order_now">"اطلب الآن "</string>
+    <string name="pasta">باستا</string>
+    <string name="pepperoni">كلاسيك بيبروني</string>
+    <string name="pepsi">بيبسي</string>
+    <string name="price">السعر</string>
+    <string name="qty">الكمية</string>
+    <string name="salad">السلطة</string>
+    <string name="salad_bar">بوفيه السلطات</string>
+    <string name="send">تأكيد بالايميل</string>
+    <string name="seven_up">سفن</string>
+    <string name="show_order">اعرض الطلب</string>
+    <string name="starters">المقبلات</string>
+    <string name="total">المجموع</string>
+</resources>
