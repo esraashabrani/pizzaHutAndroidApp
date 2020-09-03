@@ -31,7 +31,7 @@ You do not have to login/signup to use this app.
 ## Technologies:
 
    - JAVA
-   - Microsft SQL Server
+   - Microsoft SQL Server
    - Android Studio
 
 ## Getting Started
